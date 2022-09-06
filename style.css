@@ -77,10 +77,10 @@ body {
 
 .circle {
   position: absolute;
-  bottom: 4rem;
-  left: 20rem;
-  height: 20rem;
-  width: 20rem;
+  bottom: 8%;
+  left: 20%;
+  height: 40%;
+  width: 25%;
   /* From https://css.glass */
   background: rgba(138, 177, 222, 0.43);
   border-radius: 16px;
@@ -89,6 +89,7 @@ body {
   -webkit-backdrop-filter: blur(1.2px);
   border: 1px solid rgba(138, 177, 222, 0.25);
   border-radius: 100%;
+  transform: translate(-10%, 10%);
 }
 
 .btn-ac {
